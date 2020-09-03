@@ -1,0 +1,30 @@
+#+TITLE: Magit: show file history
+#+TAGS: cryptokasten, magit, emacs, git
+#+DESCRIPTION: Magit log file usage
+#+OPTIONS: ^:nil
+
+** System environment
+
+- Magit 20200801.1833
+
+- Git 2.18.4
+
+- Emacs 26.1
+
+- gnu/linux
+
+** Show git file log
+
+#+BEGIN_SRC emacs-lisp
+(magit-log-buffer-file)
+#+END_SRC
+
+or
+
+#+begin_example
+M-x magit-log-buffer-file
+#+end_example
+
+** References
+
+1. https://stackoverflow.com/questions/14352932/view-a-files-history-in-magit
